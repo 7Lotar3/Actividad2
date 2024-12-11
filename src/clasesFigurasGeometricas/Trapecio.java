@@ -15,7 +15,7 @@ public class Trapecio {
 
     //Métodos
     double calcularArea() {
-        return (((baseMayor + baseMenor) / 2) * altura);
+        return ((double)((baseMayor + baseMenor) / 2) * altura);
     }
 
     double calcularPerimetro() {

@@ -23,7 +23,7 @@ public class compilacionEjerciciosP1 {
     double lado = entrada.nextDouble(), areaT, altT, perT;
 
     perT = lado * 3;
-    //todo triángulo equilatero de lado A se tiene que los ángulos de los vértices son iguales a 60°, y la altura del triángulo es A*sena = A * ((3)^1/2)
+    //para un triángulo equilatero de lado A se tiene que los ángulos de los vértices son iguales a 60°, y la altura del triángulo es A*sena = A * ((3)^1/2)
     altT = lado * Math.sqrt(3) / 2;
     areaT = lado * altT / 2;
 

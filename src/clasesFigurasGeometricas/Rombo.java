@@ -13,7 +13,7 @@ public class Rombo {
 
     //Métodos
     double calcularArea() {
-        return (diagonalMayor * diagonalMenor / 2);
+        return ((double) diagonalMayor * diagonalMenor / 2);
     }
 
     double calcularPerimetro() {

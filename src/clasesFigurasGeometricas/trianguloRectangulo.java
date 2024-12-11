@@ -13,7 +13,7 @@ public class trianguloRectangulo {
     //Métodos
     //Calcular el área
     double calcularArea() {
-        return (base * altura / 2);
+        return ((double)base * altura / 2);
     }
 
     //Calcular el perímetro
@@ -21,6 +21,7 @@ public class trianguloRectangulo {
         return (base + altura + calcularHipotenusa());
     }
 
+    //Calcular la hipotenusa
     double calcularHipotenusa() {
         return Math.pow(base * base + altura * altura, 0.5d);
     }
